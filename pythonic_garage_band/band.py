@@ -16,4 +16,7 @@ class Bassist():
     pass
 
 class Drummer():
-    pass
+    def __init__(self, name = None):
+        self.name = name
+    def __str__(self):
+        return 'My name is Sheila E. and I play drums'
